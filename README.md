@@ -50,7 +50,20 @@ Permission: `amethyst.pickaxe` (OP by default). To give it to a rank or player w
 /lp user Steve permission set amethyst.pickaxe true
 ```
 
-Everything else is in `plugins/AmethystPickaxe/config.yml`.
+## Config
+
+Edit `plugins/AmethystPickaxe/config.yml`, then run `/amethystpickaxe reload`.
+
+| Option | Values | What it does |
+|---|---|---|
+| `durability` | `1` to `999999999` | Default max durability |
+| `glint` | `true` / `false` | Enchant glow on the pickaxe |
+| `sound` | `true` / `false` | Extra amethyst sound when mining |
+| `particle` | `true` / `false` | Purple particles on the 3x3 area |
+| `auto-pickup` | `true` / `false` | Drops go straight to your inventory |
+| `silk-touch` | `true` / `false` | Blocks drop as if mined with silk touch |
+
+A custom durability (`/amethystpickaxe <player> 500`) stays on that pickaxe and won't change with the config.
 
 ---
 
